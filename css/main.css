@@ -1,3 +1,89 @@
 html {
+  box-sizing: border-box;
+  font-family: Merriweather, serif;
+  line-height: 1.5;
+  color: #fff;
+  text-align: center;
+}
 
+*, *::before, *::after {
+  box-sizing: inherit;
+  margin: 0;
+}
+
+h1 {
+  padding: .5em 0 0;
+  font-size: 2rem;
+}
+
+body {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #d05c2e;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  margin: 0 0 .7rem;
+  padding: .5em 0 0;
+  font-size: 1.125rem;
+}
+
+a {
+  display: block;
+  padding: .4rem 0;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #a63f38;
+  background-color: #d05c2e;
+  text-decoration: none;
+  color: #fff;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.home {
+  margin: 0;
+  padding: 0;
+  float: left;
+  width: 33%;
+}
+
+.cereals {
+  margin: 0;
+  padding: 0;
+  float: left;
+  width: 34%;
+}
+
+.legumes {
+  margin: 0;
+  padding: 0;
+  float: right;
+  width: 33%;
+}
+
+.grain-left {
+  padding: .5em 0 0;
+  width: 40px;
+  float: left;
+}
+
+.grain-right {
+  padding: .5em 0 0;
+  width: 40px;
+  float: right;
+}
+
+a:hover {
+  background-color: #a63f38;
 }
